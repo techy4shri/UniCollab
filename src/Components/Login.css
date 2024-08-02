@@ -136,6 +136,17 @@ form.sign-in-form {
   margin: 4px 0 4px -10px
 }
 
+.input-field.error .input {
+  border: 1px solid red;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.error-text {
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
 .input-field input::placeholder {
   color: #aaa !important;
   font-weight: 500;
@@ -574,3 +585,5 @@ form.sign-in-form {
     font-size: 1.5rem;
   }
 }
+
+
